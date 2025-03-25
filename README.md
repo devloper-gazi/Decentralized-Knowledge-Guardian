@@ -18,5 +18,6 @@ SciNet-ZK is a peer-to-peer network designed to facilitate **censorship-resistan
 🚫 **Ethical Filtering**: Community-voted Merkle-tree blacklists to block prohibited content.  
 🔍 **Named Data Access**: Request data by name (e.g., `/genomics/dataset-2023`).  
 
+**It is currently under development. However, users who wish can download and write their own node servers and protocols for installation.**  
 ---
    
