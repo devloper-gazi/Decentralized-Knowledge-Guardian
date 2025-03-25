@@ -1,0 +1,7 @@
+def decentralized_blacklist(data_hash, threshold):
+    votes = []
+    for node in network:
+        if node.vote_blacklist(data_hash):
+            votes.append(data_hash)
+    if len(votes) >= threshold:
+        merkle_tree.insert(data_hash)
